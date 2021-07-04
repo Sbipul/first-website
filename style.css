@@ -77,4 +77,7 @@ body {
 .half-width p {
     width: 95%;
 }
-
+footer p {
+    text-align: center;
+    color: indigo;
+}
