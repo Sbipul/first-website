@@ -6,8 +6,29 @@ body {
     width: 50%;
     padding-left: 5%;
 }
+.ex-item {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 40px rgb(49, 47, 36);
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+#front {
+    border-left: 10px solid red;
+}
+#back {
+    border-left: 10px solid rgb(0, 255, 85);
+}
 .span-color {
     color: orange;
+}
+.experience {
+    background-image: url("img/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .button {
     text-decoration: none;
@@ -20,7 +41,7 @@ body {
     width: 80%;
 
 }
-section {
+.flex {
     display: flex;
     margin: 0;
 	padding-bottom: 150px;
